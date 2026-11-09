@@ -1,0 +1,20 @@
+Function Main
+    Output "Do you want to play"
+    Declare String Ans
+
+    Input Ans
+    If Ans = "Y"||Ans = "Y"||Ans = "Yes"||Ans = "Yes"||Ans = "Yes"
+        Output "48 has 10 factor. I thinking of one of them."
+        Output "Guess which factor I am thinking of."
+        Declare Integer factor
+
+        Input factor
+        While factor!=16
+            Output "You guess & factor, but that's not it. try again"
+            Input factor
+        End
+        Output " "&factor&" is absolutely correct! you are a factor superstar!"
+    Else
+        Output "maybe next time! Have a great day!"
+    End
+End
